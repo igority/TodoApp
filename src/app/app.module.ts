@@ -3,11 +3,17 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { ListComponent } from './list/list.component';
+import { CreateComponent } from './create/create.component';
+import { TodoComponent } from './todo/todo.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ListComponent,
+    CreateComponent,
+    TodoComponent
   ],
   imports: [
     BrowserModule
